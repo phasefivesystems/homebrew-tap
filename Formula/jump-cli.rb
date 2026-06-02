@@ -1,26 +1,26 @@
 class JumpCli < Formula
   desc "CLI tool and MCP server for Jump Desktop remote control"
   homepage "https://jumpdesktop.com"
-  version "10.13.3"
+  version "10.13.4"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.3_darwin_arm64.tar.gz"
-      sha256 "02201005705022b9cfe424ab38499c19eb66d126cef5c44761c9b93da216148e"
+      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.4_darwin_arm64.tar.gz"
+      sha256 "0cc65a934638f766fe521990416f27b4936752c82a5174ae81d7249c6645a455"
     else
-      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.3_darwin_amd64.tar.gz"
-      sha256 "6d5f940392ebd8382c319bf2a6a0bd925e92bdfccb6e5c14f6a0948bf33c5dee"
+      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.4_darwin_amd64.tar.gz"
+      sha256 "b86db09694d2d2f862e483e653d99f55be8a37d5aaea514681ffcf1b93d59800"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.3_linux_arm64.tar.gz"
-      sha256 "a3a3cfabc46f0fba9ce4eb98b91228eec515bc751c3f552f97a237a214519f7d"
+      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.4_linux_arm64.tar.gz"
+      sha256 "41f1b80a7fb3bfc27d793d6a6a99b6d911b1334677dd3b0b7bb70009f56ede99"
     else
-      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.3_linux_amd64.tar.gz"
-      sha256 "ea09e6120d50249c04f69f8113bf6418bc6ef6dbf98b842855da58c3d91f3a43"
+      url "https://jumpdesktop.com/downloads/cli/jump-cli_10.13.4_linux_amd64.tar.gz"
+      sha256 "13d48ba9e0604ddb7edf6639687f99447e6354d676c3e34ea3802d1a7d79068d"
     end
   end
 
